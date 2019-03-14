@@ -1,6 +1,6 @@
 # xiaomi
 prictice  of xiaonmi program
-/*html 部分代码
+/*html 部分代码*/
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -92,9 +92,9 @@ prictice  of xiaonmi program
     <div></div>
     <div></div>
 </body>
-</html>*/
+</html>
 
-/*css部分代码
+/*css部分代码*/
 
 body {
     margin: 0px;
@@ -289,5 +289,5 @@ ul,li {
     height: 170px;
     background: url(../小米商城素材/img/seckill-head.jpg) no-repeat 50% 0;
 }
-*/
+
 
