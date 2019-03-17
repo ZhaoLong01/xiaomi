@@ -1,0 +1,314 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 2500px;
+}
+.topbar  {
+    height: 40px;
+    background-color: rgb(31, 24, 24);
+    /* border: 1px solid black; */
+
+}
+.toprig{
+    height: 100px;
+    margin: 0 auto;
+    width: 1220px;
+    /* border: 1px solid black; */
+    
+}
+.toprig a:hover {
+    color: rgb(255, 255, 255);
+}
+.toprig::before ,.toprig::after,.clearfix::before,.clearfix::after
+{
+    content: "";
+    display:table;
+}
+.toprig::after ,.clearfix::after{
+    clear: both;
+}
+.nav {
+    float: left;
+    font-size: 0px;
+    line-height: 40px;
+    height: 40px;;
+}
+
+
+.topico {
+    margin-right: 15px;
+    float: right;
+}
+.topico a {
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 5px;
+}
+.topico span {
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+a {
+    font-size: 12px;
+    font-family: sans-serif;
+    color: rgb(93, 98, 102);
+    text-decoration: none;
+}
+.nav span {
+    color: black;
+    font-size: 12px;
+    margin: 0.5em;
+}
+.top-car {
+    float: right;
+}
+.top-car a {
+height: 40px;
+line-height: 40px;
+display: block;
+text-align: center;
+width: 120px;
+}
+.top-car i {
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    margin-right: 3px;
+
+}
+.top-car a:hover{
+  background-color: aliceblue;
+  color: rgb(236, 89, 4);
+}
+.top-car span {
+    color: rgb(93, 98, 102);
+    margin-left: -4px;
+    font-size: 12px;
+}
+.header {
+    height: 100px;
+}
+
+.header-logo {
+    float: left;    
+    height: 55px;
+    width: 62px;
+    margin-top: 22px;
+    /* border: 1px solid black; */
+}
+.header-logo a {
+    display: block;
+    height: 55px;
+    background: #ff6700 url(../小米商城素材/img/mi-logo.png) no-repeat 50% 50%;
+    
+}
+.header-logo a.he{
+    text-indent: -9922em;
+}
+.header-nav {
+    float: left;
+    height: 100px;
+    width: 820px;
+    /* border: 1px solid black; */
+}
+.header-nav .nav-list {
+    width: 820px;
+    height: 100px;
+    font-size: 40px;
+}
+.header-nav .nav-list .sx {
+    float: left;
+}
+.header-nav .nav-list .sx-l {
+    float: left;
+    visibility: hidden;
+    text-align: right;
+    padding: 26px 0 35px;
+    color: #333;
+}
+ .header-nav .nav-list .sx a{
+    display: block;
+    padding: 0 10px;
+    color: black;
+    line-height: 100px;
+    height: 100px;
+} 
+.header-nav .nav-list .sx a:hover{
+    color: #ff6700;
+}
+.header-search {
+    float: right;
+    height: 50px;
+    width: 296px;
+    margin-top: 22px;  
+    /* border: 1px solid black; */
+}
+ul,li {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.header-search .searchf {
+    position: relative;
+    width: 296px;
+    height: 50px;
+    display: block;
+}
+.header-search .searchf .searcht {
+    position: absolute;
+    top: 0px;
+    right: 49px;
+    outline: 0;
+    width: 246px;
+    height: 50px;
+}
+.header-search .searchf .searchbtn {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 50px;
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header-search .searchf .searchbtn:hover{
+    color:black;
+    font-size: 20;
+    background-color: #ff6700
+}
+
+.seckill {
+   
+    background: #f5f5f5;
+}
+.seckill .seckill-head {
+    margin-top: 19px;
+    height: 170px;
+    background: url(../小米商城素材/img/seckill-head.jpg) no-repeat 50% 0;
+}
+.seckill .daohan {
+    height: 80px;
+    width: 1220px;
+    background-color: rgb(46, 36, 36);
+    /* margin-top: -68px; */
+    margin: -68px auto;
+}
+.seckill .daohan .dhl{
+    color: rgb(255, 255, 255);
+    line-height: 10px;
+    font-size: 16px;
+}
+.seckill .daohan .dhl li{
+    float: left;
+    width: 20%;
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+    cursor: pointer;
+}
+.seckill .daohan .dhl .dhz{
+    background-color: #ff6700;
+    display: block;
+}
+.seckill .shangpin {
+    margin: 85px auto;
+    width: 1226px;
+    /* border: 1px solid red; */
+
+}
+.seckill .shangpin ul {
+    /* background-color: #ffffff; */
+    /* border: 1px solid black; */
+    margin-right: -13px;
+}
+.seckill .shangpin ul li{
+    border: #333;
+    float: left;
+    width: 400px;
+    height: 190px;
+    margin-right: 13px;
+    /* border: 1px solid black; */
+    margin-bottom: 13px;
+    background-color: white;
+    /* padding: 10px; */
+
+}
+.seckill .duanluo {
+    color: rgb(121, 105, 105);
+    font-size: 14px;
+    text-align: left;
+
+}
+.seckill .shangpin li {
+    width: 400px;
+    height: 190px;
+
+}
+.seckill .shangpin li .pic {
+    width: 190px;
+    height: 190px;
+    float: left;
+    /* border: 1px solid black; */
+}
+.seckill .shangpin li .pic img {
+    height: 190px;
+    width: 190px;
+} 
+.seckill .shangpin li .info {
+    width: 190px;
+    height: 190px;
+    margin-left: 210px;
+    /* border: 1px solid black; */
+    padding-top: 20px;
+}
+
+.seckill .shangpin li .info  .name{
+    color: #333;
+    font-size: 16px;
+    height: 16px;
+    line-height: 16px;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  
+}
+.seckill .shangpin li .info .name1 {
+    color: rgb(170, 160, 160);
+    font-size: 12px;
+    height: 12px;
+    line-height: 12px;
+    margin-top: 10px;
+}
+.seckill .shangpin li .info .name2 {
+    color: rgb(236, 89, 4);
+    font-size: 16px;
+    line-height: 16px;
+    margin-top: 14px;
+
+}
+.seckill .shangpin li .info .name2 del {
+    color: #999;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.seckill .shangpin li .info .name3 {
+    display: inline-block ;
+    width:100px;
+    height: 20px;
+    background-color: green;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 12px;
+
+}
+.seckill .shangpin li .info .name4 {
+    color: #999;
+    font-size: 12px;
+}
